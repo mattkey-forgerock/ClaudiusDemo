@@ -21,7 +21,7 @@ fastify.register(async function (api) {
   // -------------------- ROUTES UNDER / --------------------
 
 api.get('/', async (req, reply) => {
-  const base = 'https://grass-synonymous-zenith.glitch.me/apis';
+  const base = 'https://claudiusdemoapi.onrender.com/apis';
 
   const viewLinks = [
     [`View Citizens Table`, `${base}/citizens-view`],
