@@ -63,7 +63,7 @@ api.get('/', async (req, reply) => {
 // -------------------- ROUTES UNDER /apis --------------------
 
 api.get('/apis', async (req, reply) => {
-  const base = 'https://grass-synonymous-zenith.glitch.me/apis';
+  const base = 'https://claudiusdemoapi.onrender.com/apis';
   return reply.send({
     citizens: `${base}/citizens?citizenId=<citizenId>`,
     relationships: `${base}/citizens/relationships?citizenId=<citizenId>`,
